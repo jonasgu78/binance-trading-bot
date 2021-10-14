@@ -6,8 +6,8 @@ services:
     image: chrisleekr/binance-trading-bot:latest
     networks:
       - internal
-    env_file:
-      - .env
+#    env_file:
+#      - .env
     restart: unless-stopped
     environment:
       # - BINANCE_MODE=test
