@@ -14,8 +14,8 @@ services:
       - ./app:/srv/app
       - ./public:/srv/public
       - ./migrations:/srv/migrations
-    env_file:
-      - .env
+#    env_file:
+#      - .env
     restart: unless-stopped
     environment:
       - BINANCE_MODE=test
