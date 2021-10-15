@@ -999,7 +999,7 @@ class SettingIcon extends React.Component {
                                           type='number'
                                           placeholder='Enter maximum loss percentage'
                                           required
-                                          max='1'
+                                          max='9'
                                           min='0'
                                           step='0.0001'
                                           data-state-key='sell.stopLoss.maxLossPercentage'
